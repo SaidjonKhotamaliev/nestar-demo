@@ -1,11 +1,19 @@
 import withLayoutMain from "@/libs/components/layout/LayoutHome";
-import { Box, Container, Stack } from "@mui/material";
+import { Box, Stack } from "@mui/material";
 import { NextPage } from "next";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import TrendProperties from "@/libs/components/homepage/TrendProperties";
+import PopularProperties from "@/libs/components/homepage/PopularProperties";
 
 const Home: NextPage = () => {
   return (
-    <Stack>
-      <Stack flexDirection={"column"}>
+    <Stack className="home-page">
+      <TrendProperties />
+      <PopularProperties />
+
+      {/* <Stack flexDirection={"column"}>
         <Stack>
           <Stack className="container">Trend Properties</Stack>
         </Stack>
@@ -21,7 +29,7 @@ const Home: NextPage = () => {
         <Stack>
           <Box className="container">Top Agents</Box>
         </Stack>
-      </Stack>
+      </Stack> */}
     </Stack>
   );
 };
