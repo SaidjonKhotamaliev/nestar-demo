@@ -56,22 +56,22 @@
               .swiper-pagination-buller .swiper-pagination-bullet-active {
                 background: #000000;
               }
-              .swiper-trend-next {
-                margin-left: 20px;
-                cursor: pointer;
-              }
-              .swiper-trend-prev {
-                margin-right: 20px;
-                cursor: pointer;
-              }
-              .swiper-top-next {
-                margin-left: 20px;
-                cursor: pointer;
-              }
-              .swiper-top-prev {
-                margin-right: 20px;
-                cursor: pointer;
-              }
+            }
+            .swiper-trend-next {
+              margin-left: 20px;
+              cursor: pointer;
+            }
+            .swiper-trend-prev {
+              margin-right: 20px;
+              cursor: pointer;
+            }
+            .swiper-top-next {
+              margin-left: 20px;
+              cursor: pointer;
+            }
+            .swiper-top-prev {
+              margin-right: 20px;
+              cursor: pointer;
             }
             .more-box {
               display: flex;
@@ -332,22 +332,22 @@
               .swiper-pagination-buller .swiper-pagination-bullet-active {
                 background: #000000;
               }
-              .swiper-popular-next {
-                margin-left: 20px;
-                cursor: pointer;
-              }
-              .swiper-popular-prev {
-                margin-right: 20px;
-                cursor: pointer;
-              }
-              .swiper-top-next {
-                margin-left: 20px;
-                cursor: pointer;
-              }
-              .swiper-top-prev {
-                margin-right: 20px;
-                cursor: pointer;
-              }
+            }
+            .swiper-popular-next {
+              margin-left: 20px;
+              cursor: pointer;
+            }
+            .swiper-popular-prev {
+              margin-right: 20px;
+              cursor: pointer;
+            }
+            .swiper-top-next {
+              margin-left: 20px;
+              cursor: pointer;
+            }
+            .swiper-top-prev {
+              margin-right: 20px;
+              cursor: pointer;
             }
             .more-box {
               display: flex;
@@ -441,7 +441,28 @@
               background-size: cover;
               border-radius: 12px 12px 0 0;
               cursor: pointer;
-              div {
+              .top-word {
+                position: relative;
+                top: 21px;
+                left: 22px;
+                width: 72px;
+                height: 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                border-radius: 4px;
+                background-color: #eb6753;
+                p {
+                  color: #ffffff;
+                  font-family: $font;
+                  font-size: 12px;
+                  font-style: normal;
+                  font-weight: 600;
+                  line-height: normal;
+                }
+              }
+              span {
                 position: absolute;
                 padding: 8px 12px;
                 left: 12px;
@@ -466,6 +487,7 @@
               border-top: none;
               background: #fff;
               box-shadow: 0px 1px 4px 0px rgba(24, 26, 32, 0.07);
+
               .title {
                 overflow: hidden;
                 color: #181a20;
@@ -616,22 +638,22 @@
               .swiper-pagination-buller .swiper-pagination-bullet-active {
                 background: #000000;
               }
-              .swiper-top-next {
-                margin-left: 20px;
-                cursor: pointer;
-              }
-              .swiper-top-prev {
-                margin-right: 20px;
-                cursor: pointer;
-              }
-              .swiper-top-next {
-                margin-left: 20px;
-                cursor: pointer;
-              }
-              .swiper-top-prev {
-                margin-right: 20px;
-                cursor: pointer;
-              }
+            }
+            .swiper-top-next {
+              margin-left: 20px;
+              cursor: pointer;
+            }
+            .swiper-top-prev {
+              margin-right: 20px;
+              cursor: pointer;
+            }
+            .swiper-top-next {
+              margin-left: 20px;
+              cursor: pointer;
+            }
+            .swiper-top-prev {
+              margin-right: 20px;
+              cursor: pointer;
             }
             .more-box {
               display: flex;
